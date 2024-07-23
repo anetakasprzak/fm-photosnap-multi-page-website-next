@@ -8,7 +8,7 @@ import {
   pricingHero,
 } from "../../data";
 
-// import CtaComponent from "../CtaComponent/CtaComponent";
+import CtaComponent from "../../_components/CtaComponent/CtaComponent";
 import { useLayoutEffect, useState } from "react";
 import "./page.css";
 
@@ -22,7 +22,7 @@ const PricingPage = () => {
       <HeroSection data={pricingHero} />
       <CardsSection data={pricingCardData} />
       <CompareSection />
-      {/* <CtaComponent data={ctaImg} /> */}
+      <CtaComponent data={ctaImg} />
     </>
   );
 };
