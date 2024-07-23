@@ -1,0 +1,148 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.6rem 8rem;
+
+  position: relative;
+  height: 7.2rem;
+}
+
+.logo {
+  flex-shrink: 0;
+}
+
+.overlay {
+  position: fixed;
+  top: 7.2rem;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 4;
+}
+
+.nav__dropdown {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3.2rem;
+}
+
+.nav__dropdown ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding-bottom: 2rem;
+}
+
+.dropdown__link a {
+  font-size: 1.5rem;
+}
+
+.nav__dropdown-btn {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1.2rem;
+  font-family: inherit;
+  padding: 1.2rem 2.4rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-wrap: nowrap;
+  text-decoration: none;
+  display: block;
+  width: 310px;
+  text-align: center;
+}
+
+.navbar__links-box {
+  display: flex;
+  gap: 3.7rem;
+  list-style: none;
+}
+
+.navbar__link a:link,
+.navbar__link a:visited {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-decoration: none;
+  color: #000;
+}
+
+.dropdown__link a:link,
+.dropdown__link a:visited {
+  font-size: 1.5rem;
+}
+
+.navbar__link:hover {
+  opacity: 0.3;
+}
+
+.nav__btn {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1.2rem;
+  font-family: inherit;
+  padding: 1.2rem 2.4rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-wrap: nowrap;
+  text-decoration: none;
+}
+
+.nav__btn:hover {
+  background-color: #dfdfdf;
+  color: #000;
+}
+
+.nav__burger {
+  display: none;
+}
+
+/* **************** MEDIA QUERIES **************** */
+
+@media screen and (max-width: 48em) {
+  .navbar {
+    padding: 1.6rem 2rem;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .navbar {
+    padding: 2.8rem 2.4rem;
+  }
+
+  .navbar__links-box {
+    display: none;
+  }
+
+  .nav__btn {
+    display: none;
+  }
+
+  .nav__burger {
+    display: block;
+  }
+
+  .nav__dropdown-btn {
+    align-self: center;
+  }
+}
