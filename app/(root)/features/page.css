@@ -1,0 +1,94 @@
+/* *********** HERO *********** */
+
+.hero-section {
+  display: flex;
+}
+
+.features-text__box {
+  height: 49rem;
+  padding: 15.8rem 11.1rem;
+  background-color: #000;
+  color: #fff;
+
+  flex: 0 1 61rem;
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+  margin-bottom: 2.1rem;
+}
+
+.section__text {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  opacity: 0.55;
+}
+
+/* *********** FEATURES *********** */
+
+.features__section--box {
+  padding: 16rem 13rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  column-gap: 3rem;
+  row-gap: 10rem;
+}
+
+/* *********** MEDIA QUERIES *********** */
+
+@media screen and (max-width: 85em) {
+  /* *********** FEATURES *********** */
+  .features__section--box {
+    padding: 14rem 2rem;
+
+    column-gap: 6rem;
+    row-gap: 7.2rem;
+  }
+}
+
+@media screen and (max-width: 48em) {
+  /* *********** FEATURES *********** */
+  .features__section--box {
+    padding: 10rem 3rem;
+
+    column-gap: 1.5rem;
+    row-gap: 7.2rem;
+  }
+
+  .features-text__box {
+    padding: 10.8rem 5.1rem;
+    flex: 0 1 49.5rem;
+  }
+}
+
+@media screen and (max-width: 23.5em) {
+  /* *********** HERO *********** */
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+
+  .features-text__box {
+    height: 30rem;
+    padding: 7.2rem 2.8rem;
+  }
+
+  .heading {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    letter-spacing: 3.333px;
+    margin-bottom: 1.6rem;
+  }
+
+  .features__section--box {
+    padding: 10rem 3rem;
+    row-gap: 5rem;
+  }
+}
