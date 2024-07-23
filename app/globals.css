@@ -1,0 +1,47 @@
+:root {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 48em) {
+  .wrapper {
+    max-width: 76.8rem;
+  }
+}
+
+@media screen and (max-width: 23.5em) {
+  .wrapper {
+    max-width: 37.5rem;
+  }
+}
