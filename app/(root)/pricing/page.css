@@ -1,0 +1,373 @@
+.hero-section {
+  display: flex;
+  height: 49rem;
+}
+
+.text__box {
+  height: 49rem;
+  padding: 15.8rem 11.1rem;
+  background-color: #000;
+  color: #fff;
+
+  flex: 0 1 61rem;
+}
+
+.hero--img {
+  flex: 1 1 auto;
+}
+
+.hero--img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+  margin-bottom: 2.1rem;
+}
+
+.section__text {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  opacity: 0.55;
+}
+
+/* ************* SWITCH TOGGLE ************* */
+
+.pricing__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 10rem;
+}
+
+.toggle__box {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.toggle__text--black {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+.toggle__text--grey {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  opacity: 0.5;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 6.4rem;
+  height: 3.2rem;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 2.6rem;
+  width: 2.6rem;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #000;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(2.9rem);
+  -ms-transform: translateX(2.9rem);
+  transform: translateX(2.9rem);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 3.4rem;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* ************* CARDS ************* */
+
+.cards__section {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  max-width: 111rem;
+  margin: 0 auto;
+  /* padding: 3rem 16.5rem 6rem 16.5rem; */
+}
+
+.pricing__card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1.8rem;
+  height: max-content;
+  background-color: #f5f5f5;
+  padding: 5.6rem 4rem 4rem 4rem;
+  min-width: 25rem;
+}
+
+.pricing__card--2 {
+  background-color: #000;
+  padding: 8.2rem 4rem 7.1rem 4rem;
+  color: #fff;
+}
+
+.card__heading {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-bottom: 1.8rem;
+}
+
+.card__text {
+  opacity: 0.6;
+  line-height: 2.5rem;
+}
+
+.card__price {
+  margin-bottom: -0.5rem;
+  margin-top: 1rem;
+
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+
+.card__btn {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 1.2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.card__btn--2 {
+  background-color: #fff;
+  color: #000;
+}
+
+/* ************* COMPARE SECTION ************* */
+
+.compare__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 14rem 10rem;
+}
+
+.compare__heading {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+
+.table__text {
+  text-align: start;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.text__position {
+  width: 40rem;
+}
+
+.table__check {
+  display: flex;
+  margin-left: 30%;
+}
+
+table {
+  width: max-content;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 1.5rem;
+  border-bottom: 1px solid #000;
+}
+
+td {
+  padding: 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+/* *************** MEDIA QUERIES *************** */
+
+@media screen and (max-width: 50.75em) {
+  .cards__section {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 48em) {
+  .cards__section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    /* padding: 5rem 4rem; */
+  }
+
+  .pricing__card {
+    display: grid;
+    grid-template-columns: 27rem 1fr;
+    grid-template-rows: repeat(2, max-content);
+    column-gap: 12rem;
+    text-align: start;
+
+    padding: 4rem 4.8rem 4rem 4rem;
+    width: minmax(45rem, 70rem);
+  }
+
+  .card__price--box {
+    text-align: end;
+  }
+
+  .card__price {
+    margin-top: 0rem;
+  }
+
+  .card__btn {
+    max-width: 27rem;
+  }
+
+  .compare__section {
+    padding: 10rem 5rem;
+  }
+
+  .text__position {
+    width: 35rem;
+  }
+
+  .text__box {
+    padding: 10.8rem 5.1rem;
+    flex: 0 1 49.5rem;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .pricing__card {
+    column-gap: 3rem;
+    grid-template-columns: 20rem 1fr;
+  }
+
+  .text__position {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .text__position {
+    width: 0rem;
+  }
+
+  th {
+    padding: 0.5rem;
+  }
+
+  .pricing__card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.8rem;
+    height: max-content;
+    background-color: #f5f5f5;
+    padding: 5.6rem 4rem 4rem 4rem;
+    min-width: 25rem;
+  }
+
+  .pricing__card--2 {
+    background-color: #000;
+    padding: 5.6rem 4rem 4rem 4rem;
+    color: #fff;
+  }
+
+  .card__price--box {
+    text-align: center;
+  }
+
+  .card__btn {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 23.5em) {
+  .hero-section {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .text__box {
+    height: 30rem;
+    padding: 7.2rem 2.8rem;
+  }
+
+  .cards__section {
+    gap: 2.4rem;
+    /* padding: 2rem 2.8rem; */
+  }
+
+  .compare__section {
+    padding: 5rem 2rem;
+  }
+
+  .text__position {
+    width: 15.3rem;
+  }
+}
