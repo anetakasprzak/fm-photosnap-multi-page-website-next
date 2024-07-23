@@ -7,8 +7,8 @@ import {
   ctaImg,
 } from "../../data";
 
-import CtaComponent from "../../_components/CtaComponent/CtaComponent";
-import FeatureComponent from "../../_components/FeatureComponent/FeatureComponent";
+import CtaComponent from "../../_components/Cta/Cta";
+import FeatureComponent from "../../_components/Feature/Feature";
 
 import { useLayoutEffect } from "react";
 import "./page.css";

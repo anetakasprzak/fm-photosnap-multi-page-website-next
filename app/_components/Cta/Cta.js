@@ -1,5 +1,5 @@
 import Link from "next/link";
-import "./CtaComponent.css";
+import "./Cta.css";
 
 const CtaComponent = ({ data }) => {
   const { image } = data;

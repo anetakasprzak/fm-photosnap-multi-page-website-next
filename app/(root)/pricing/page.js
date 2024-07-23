@@ -8,7 +8,7 @@ import {
   pricingHero,
 } from "../../data";
 
-import CtaComponent from "../../_components/CtaComponent/CtaComponent";
+import CtaComponent from "../../_components/Cta/Cta";
 import { useLayoutEffect, useState } from "react";
 import "./page.css";
 

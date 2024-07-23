@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import "./FeatureComponent.css";
+import "./Feature.css";
 
 const FeatureComponent = ({ obj }) => {
   const { title, text, image } = obj;
