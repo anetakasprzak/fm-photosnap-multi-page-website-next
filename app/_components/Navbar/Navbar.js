@@ -1,6 +1,6 @@
 "use client";
 import Logo from "../Logo/Logo";
-import "./NavBar.css";
+import "./Navbar.css";
 import { links } from "../../data";
 import Link from "next/link";
 import { useEffect, useState } from "react";
