@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { infoComponentsData, storiesData, featuresData } from "./data";
 import "./page.css";
 
@@ -64,7 +65,13 @@ const InfoComponent = ({ obj }) => {
           <source srcSet={image.mobile} media="(max-width: 23.4em)" />
           <source srcSet={image.tablet} media="(max-width: 47.8em)" />
           <source srcSet={image.desktop} media="(max-width: 90em)" />
-          <img src={image.desktop} alt="image" />
+          <Image
+            src={image.desktop}
+            alt="hero"
+            width={500}
+            height={300}
+            layout="responsive"
+          />
         </picture>
       </div>
     </div>

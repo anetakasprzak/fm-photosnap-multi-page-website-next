@@ -12,9 +12,9 @@ export const infoComponentsData = [
     text: "Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.",
     link: { text: "GET AN INVITE", href: "/invite", color: "white" },
     image: {
-      mobile: "./assets/home/mobile/create-and-share.jpg",
-      tablet: "./assets/home/tablet/create-and-share.jpg",
-      desktop: "./assets/home/desktop/create-and-share.jpg",
+      mobile: "/assets/home/mobile/create-and-share.jpg",
+      tablet: "/assets/home/tablet/create-and-share.jpg",
+      desktop: "/assets/home/desktop/create-and-share.jpg",
     },
   },
   {
@@ -23,9 +23,9 @@ export const infoComponentsData = [
     text: "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
     link: { text: "VIEW THE STORIES", href: "/stories", color: "black" },
     image: {
-      mobile: "./assets/home/mobile/beautiful-stories.jpg",
-      tablet: "./assets/home/tablet/beautiful-stories.jpg",
-      desktop: "./assets/home/desktop/beautiful-stories.jpg",
+      mobile: "/assets/home/mobile/beautiful-stories.jpg",
+      tablet: "/assets/home/tablet/beautiful-stories.jpg",
+      desktop: "/assets/home/desktop/beautiful-stories.jpg",
     },
   },
   {
@@ -34,9 +34,9 @@ export const infoComponentsData = [
     text: "Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. ",
     link: { text: "VIEW THE STORIES", href: "/stories", color: "black" },
     image: {
-      mobile: "./assets/home/mobile/designed-for-everyone.jpg",
-      tablet: "./assets/home/tablet/designed-for-everyone.jpg",
-      desktop: "./assets/home/desktop/designed-for-everyone.jpg",
+      mobile: "/assets/home/mobile/designed-for-everyone.jpg",
+      tablet: "/assets/home/tablet/designed-for-everyone.jpg",
+      desktop: "/assets/home/desktop/designed-for-everyone.jpg",
     },
   },
 ];
@@ -48,8 +48,8 @@ export const storiesData = [
     title: "The Mountains",
     author: "John Appleseed",
     image: {
-      desktop: "./assets/stories/desktop/mountains.jpg",
-      mobile: "./assets/stories/mobile/mountains.jpg",
+      desktop: "/assets/stories/desktop/mountains.jpg",
+      mobile: "/assets/stories/mobile/mountains.jpg",
     },
   },
   {
@@ -58,8 +58,8 @@ export const storiesData = [
     title: "Sunset Cityscapes",
     author: "Benjamin Cruz",
     image: {
-      desktop: "./assets/stories/desktop/cityscapes.jpg",
-      mobile: "./assets/stories/mobile/cityscapes.jpg",
+      desktop: "/assets/stories/desktop/cityscapes.jpg",
+      mobile: "/assets/stories/mobile/cityscapes.jpg",
     },
   },
   {
@@ -68,8 +68,8 @@ export const storiesData = [
     title: "18 Days Voyage",
     author: "Alexei Borodin",
     image: {
-      desktop: "./assets/stories/desktop/18-days-voyage.jpg",
-      mobile: "./assets/stories/mobile/18-days-voyage.jpg",
+      desktop: "/assets/stories/desktop/18-days-voyage.jpg",
+      mobile: "/assets/stories/mobile/18-days-voyage.jpg",
     },
   },
   {
@@ -78,8 +78,8 @@ export const storiesData = [
     title: "Architecturals",
     author: "Samantha Brooke",
     image: {
-      desktop: "./assets/stories/desktop/architecturals.jpg",
-      mobile: "./assets/stories/mobile/architecturals.jpg",
+      desktop: "/assets/stories/desktop/architecturals.jpg",
+      mobile: "/assets/stories/mobile/architecturals.jpg",
     },
   },
   {
@@ -88,8 +88,8 @@ export const storiesData = [
     title: "World Tour 2019",
     author: "Timothy Wagner",
     image: {
-      desktop: "./assets/stories/desktop/world-tour.jpg",
-      mobile: "./assets/stories/mobile/world-tour.jpg",
+      desktop: "/assets/stories/desktop/world-tour.jpg",
+      mobile: "/assets/stories/mobile/world-tour.jpg",
     },
   },
   {
@@ -98,8 +98,8 @@ export const storiesData = [
     title: "Unforeseen Corners",
     author: "William Malcolm",
     image: {
-      desktop: "./assets/stories/desktop/unforeseen-corners.jpg",
-      mobile: "./assets/stories/mobile/unforeseen-corners.jpg",
+      desktop: "/assets/stories/desktop/unforeseen-corners.jpg",
+      mobile: "/assets/stories/mobile/unforeseen-corners.jpg",
     },
   },
   {
@@ -108,8 +108,8 @@ export const storiesData = [
     title: "King on Africa: Part II",
     author: "Tim Hillenburg",
     image: {
-      desktop: "./assets/stories/desktop/king-on-africa.jpg",
-      mobile: "./assets/stories/mobile/king-on-africa.jpg",
+      desktop: "/assets/stories/desktop/king-on-africa.jpg",
+      mobile: "/assets/stories/mobile/king-on-africa.jpg",
     },
   },
   {
@@ -118,8 +118,8 @@ export const storiesData = [
     title: "The Trip to Nowhere",
     author: "Felicia Rourke",
     image: {
-      desktop: "./assets/stories/desktop/trip-to-nowhere.jpg",
-      mobile: "./assets/stories/mobile/trip-to-nowhere.jpg",
+      desktop: "/assets/stories/desktop/trip-to-nowhere.jpg",
+      mobile: "/assets/stories/mobile/trip-to-nowhere.jpg",
     },
   },
   {
@@ -128,8 +128,8 @@ export const storiesData = [
     title: "Rage of The Sea",
     author: "Mohammed Abdul",
     image: {
-      desktop: "./assets/stories/desktop/rage-of-the-sea.jpg",
-      mobile: "./assets/stories/mobile/rage-of-the-sea.jpg",
+      desktop: "/assets/stories/desktop/rage-of-the-sea.jpg",
+      mobile: "/assets/stories/mobile/rage-of-the-sea.jpg",
     },
   },
   {
@@ -138,8 +138,8 @@ export const storiesData = [
     title: "Running Free",
     author: "Michelle",
     image: {
-      desktop: "./assets/stories/desktop/running-free.jpg",
-      mobile: "./assets/stories/mobile/running-free.jpg",
+      desktop: "/assets/stories/desktop/running-free.jpg",
+      mobile: "/assets/stories/mobile/running-free.jpg",
     },
   },
   {
@@ -148,8 +148,8 @@ export const storiesData = [
     title: "Behind the Waves",
     author: "by Lamarr Wilson",
     image: {
-      desktop: "./assets/stories/desktop/behind-the-waves.jpg",
-      mobile: "./assets/stories/mobile/behind-the-waves.jpg",
+      desktop: "/assets/stories/desktop/behind-the-waves.jpg",
+      mobile: "/assets/stories/mobile/behind-the-waves.jpg",
     },
   },
   {
@@ -158,8 +158,8 @@ export const storiesData = [
     title: "Calm Waters",
     author: "Samantha Brooke",
     image: {
-      desktop: "./assets/stories/desktop/calm-waters.jpg",
-      mobile: "./assets/stories/mobile/calm-waters.jpg",
+      desktop: "/assets/stories/desktop/calm-waters.jpg",
+      mobile: "/assets/stories/mobile/calm-waters.jpg",
     },
   },
   {
@@ -168,8 +168,8 @@ export const storiesData = [
     title: "The Milky Way",
     author: "Benjamin Cruz",
     image: {
-      desktop: "./assets/stories/desktop/milky-way.jpg",
-      mobile: "./assets/stories/mobile/milky-way.jpg",
+      desktop: "/assets/stories/desktop/milky-way.jpg",
+      mobile: "/assets/stories/mobile/milky-way.jpg",
     },
   },
   {
@@ -178,8 +178,8 @@ export const storiesData = [
     title: "Night at The Dark Forest",
     author: "Mohammed Abdul",
     image: {
-      desktop: "./assets/stories/desktop/dark-forest.jpg",
-      mobile: "./assets/stories/mobile/dark-forest.jpg",
+      desktop: "/assets/stories/desktop/dark-forest.jpg",
+      mobile: "/assets/stories/mobile/dark-forest.jpg",
     },
   },
   {
@@ -188,8 +188,8 @@ export const storiesData = [
     title: "Somwarpet’s Beauty",
     author: "Michelle",
     image: {
-      desktop: "./assets/stories/desktop/somwarpet.jpg",
-      mobile: "./assets/stories/mobile/somwarpet.jpg",
+      desktop: "/assets/stories/desktop/somwarpet.jpg",
+      mobile: "/assets/stories/mobile/somwarpet.jpg",
     },
   },
   {
@@ -198,8 +198,8 @@ export const storiesData = [
     title: "Land of Dreams",
     author: "by William Malcolm",
     image: {
-      desktop: "./assets/stories/desktop/land-of-dreams.jpg",
-      mobile: "./assets/stories/mobile/land-of-dreams.jpg",
+      desktop: "/assets/stories/desktop/land-of-dreams.jpg",
+      mobile: "/assets/stories/mobile/land-of-dreams.jpg",
     },
   },
 ];
@@ -207,79 +207,79 @@ export const storiesData = [
 export const featuresData = [
   {
     id: 1,
-    image: "./assets/features/desktop/responsive.svg",
+    image: "/assets/features/desktop/responsive.svg",
     title: "100% Responsive",
     text: "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.",
   },
   {
     id: 2,
-    image: "./assets/features/desktop/no-limit.svg",
+    image: "/assets/features/desktop/no-limit.svg",
     title: "No Photo Upload Limit",
     text: "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.",
   },
   {
     id: 3,
-    image: "./assets/features/desktop/embed.svg",
+    image: "/assets/features/desktop/embed.svg",
     title: "Available to Embed",
     text: "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. ",
   },
   {
     id: 4,
-    image: "./assets/features/desktop/custom-domain.svg",
+    image: "/assets/features/desktop/custom-domain.svg",
     title: "Custom Domain",
     text: "With Photosnap subscriptions you can host your stories on your own domain. You can also remove our branding!",
   },
   {
     id: 5,
-    image: "./assets/features/desktop/boost-exposure.svg",
+    image: "/assets/features/desktop/boost-exposure.svg",
     title: "Boost Your Exposure",
     text: "Users that viewed your story or gallery can easily get notifed of new and featured stories with our built in mailing list.",
   },
   {
     id: 6,
-    image: "./assets/features/desktop/drag-drop.svg",
+    image: "/assets/features/desktop/drag-drop.svg",
     title: "Drag & Drop Image",
     text: "Easily drag and drop your image and get beautiful shots everytime. No over the top tooling to add friction to creating stories.",
   },
 ];
 
 export const socialLinksData = [
-  { id: 1, icon: "./assets/shared/desktop/facebook.svg" },
-  { id: 2, icon: "./assets/shared/desktop/youtube.svg" },
-  { id: 3, icon: "./assets/shared/desktop/twitter.svg" },
-  { id: 4, icon: "./assets/shared/desktop/pinterest.svg" },
-  { id: 5, icon: "./assets/shared/desktop/instagram.svg" },
+  { id: 1, icon: "/assets/shared/desktop/facebook.svg" },
+  { id: 2, icon: "/assets/shared/desktop/youtube.svg" },
+  { id: 3, icon: "/assets/shared/desktop/twitter.svg" },
+  { id: 4, icon: "/assets/shared/desktop/pinterest.svg" },
+  { id: 5, icon: "/assets/shared/desktop/instagram.svg" },
 ];
 
 export const heroStories = {
   image: {
-    mobile: "./assets/stories/mobile/moon-of-appalacia.jpg",
-    tablet: "./assets/stories/tablet/moon-of-appalacia.jpg",
-    desktop: "./assets/stories/desktop/moon-of-appalacia.jpg",
+    mobile: "/assets/stories/mobile/moon-of-appalacia.jpg",
+    tablet: "/assets/stories/tablet/moon-of-appalacia.jpg",
+    desktop: "/assets/stories/desktop/moon-of-appalacia.jpg",
   },
 };
 
 export const heroFeatures = {
   image: {
-    mobile: "./assets/features/mobile/hero.jpg",
-    tablet: "./assets/features/tablet/hero.jpg",
-    desktop: "./assets/features/desktop/hero.jpg",
+    mobile: "/assets/features/mobile/hero.jpg",
+    tablet: "/assets/features/tablet/hero.jpg",
+    desktop: "/assets/features/desktop/hero.jpg",
   },
 };
 
 export const ctaImg = {
   image: {
-    mobile: "./assets/shared/mobile/bg-beta.jpg",
-    tablet: "./assets/shared/tablet/bg-beta.jpg",
-    desktop: "./assets/shared/desktop/bg-beta.jpg",
+    mobile: "/assets/shared/mobile/bg-beta.jpg",
+    tablet: "/assets/shared/tablet/bg-beta.jpg",
+    desktop: "/assets/shared/desktop/bg-beta.jpg",
   },
 };
 
 export const pricingHero = {
   image: {
-    mobile: "./assets/pricing/mobile/hero.jpg",
-    tablet: "./assets/pricing/tablet/hero.jpg",
-    desktop: "./assets/pricing/desktop/hero.jpg",
+    mobile: "/assets/pricing/mobile/hero.jpg",
+    tablet: "/assets/pricing/tablet/hero.jpg",
+    desktop: "/assets/pricing/desktop/hero.jpg",
   },
 };
 

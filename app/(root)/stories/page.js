@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import "./page.css";
 
 import { heroStories, links, socialLinksData, storiesData } from "../../data";
@@ -27,7 +28,13 @@ const StoriesHero = ({ data }) => {
         <source srcSet={image.mobile} media="(max-width: 23.4em)" />
         <source srcSet={image.tablet} media="(max-width: 48em)" />
         <source srcSet={image.desktop} media="(max-width: 90em)" />
-        <img src={image.desktop} alt="hero" />
+        <Image
+          src={image.desktop}
+          alt="hero"
+          width={500}
+          height={300}
+          layout="responsive"
+        />
       </picture>
 
       <div className="hero__text-box">

@@ -4,8 +4,10 @@ import "./Navbar.css";
 import { links } from "../../data";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 const NavBar = () => {
+  const currentPath = usePathname();
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   useEffect(() => {
@@ -24,9 +26,17 @@ const NavBar = () => {
 
       <ul className="navbar__links-box">
         {links.slice(1).map((obj) => {
+          console.log(obj.href);
           return (
-            <li className="navbar__link" key={obj.id}>
-              <Link href={obj.href}>{obj.linkName}</Link>
+            <li key={obj.id}>
+              <Link
+                href={obj.href}
+                className={`navbar__link ${
+                  currentPath === obj.href ? "navbar__active" : "navbar__normal"
+                }`}
+              >
+                {obj.linkName}
+              </Link>
             </li>
           );
         })}
