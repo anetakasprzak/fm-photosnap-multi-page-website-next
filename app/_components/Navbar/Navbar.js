@@ -26,7 +26,6 @@ const NavBar = () => {
 
       <ul className="navbar__links-box">
         {links.slice(1).map((obj) => {
-          console.log(obj.href);
           return (
             <li key={obj.id}>
               <Link
